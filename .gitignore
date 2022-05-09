@@ -36,5 +36,6 @@ yarn-debug.log*
 .yarn-integrity
 
 # Ignore DB file
-/db
-!/db/migrate
+/db/*
+!/db/migrate/
+!/db/schema.rb
