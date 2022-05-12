@@ -1,9 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Rails参考書の写経リポジトリ
+### 現場で使える Ruby on Rails 5速習実践ガイド
+https://book.mynavi.jp/ec/products/detail/id=93905
 
-Things you may want to cover:
+
+## Things you may want to cover:
 
 
 * Configuration
@@ -14,11 +16,13 @@ Things you may want to cover:
   `docker-compose build`
   `docker-compose up`
 
-* Database creation
+* Database setup
   `docker-compose run web rails db:create`
+  `docker-compose run web rails db:migrate`
 
-* Database initialization
-
+* Application setup
+  `docker-compose run web rails assets:precompile`
+  
 * How to run the test suite
 
 * Services (job queues, cache servers, search engines, etc.)
