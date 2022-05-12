@@ -1,7 +1,7 @@
 # README
 
 ## Rails参考書の写経リポジトリ
-### 現場で使える Ruby on Rails 5速習実践ガイド
+- 現場で使える Ruby on Rails 5速習実践ガイド
 https://book.mynavi.jp/ec/products/detail/id=93905
 
 
